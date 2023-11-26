@@ -34,6 +34,8 @@ Without these axiomatic approach, It is difficult to know whether the attributio
 
 Research Paper reference : Axiomatic Attribution for Deep Networks,  https://arxiv.org/abs/1703.01365
 
+For better readability and understanding, refer to the paper with highlighted points: [here](https://github.com/joshir199/Integrated-Gradient-Attribution-for-features-of-DeepLearning-Models/blob/main/Paper_with_highlighted_points.pdf)
+
 # Use Cases : 
 
 1. Debugging Model Performance (only for model which are differentiable)
