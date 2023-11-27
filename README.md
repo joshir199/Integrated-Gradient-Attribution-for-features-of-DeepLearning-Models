@@ -14,7 +14,7 @@ Specifically, Integrated gradients are defined as the path intergral of the grad
 
 This attribution method satisfy the axiomatic properties like:
 1. Sensitivity
-2. Complete Invariance
+2. Implementation Invariance
 
 Integrated Gradients also preserves linearity within the network.
 
@@ -41,3 +41,9 @@ For better readability and understanding, refer to the paper with highlighted po
 1. Debugging Model Performance (only for model which are differentiable)
 2. Debugging Data Skewness
 3. Pixel distribution understanding in case of Image model
+
+# Tools:
+Captum is the python library that can be used for calculating Integrated Gradients and understanding models using visualization techniques.
+
+It supports other attribution techniques like SHAP, DeepLift etc.
+For more detailed info, refer here : https://captum.ai/
